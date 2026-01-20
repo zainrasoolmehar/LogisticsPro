@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LogisticsPro - Professional B2B Logistics Solutions | Reliable Shipping & Delivery</title>
+  <meta name="description" content="LogisticsPro delivers professional B2B logistics solutions with 99.9% on-time delivery. Trusted by businesses for reliable shipping, warehousing, and supply chain management.">
+  <link rel="canonical" href="https://logisticspro.com">
+  <meta property="og:title" content="LogisticsPro - Professional B2B Logistics Solutions">
+  <meta property="og:description" content="LogisticsPro delivers professional B2B logistics solutions with 99.9% on-time delivery. Trusted by businesses for reliable shipping, warehousing, and supply chain management.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://logisticspro.com">
+  <meta property="og:image" content="https://logisticspro.com/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LogisticsPro - Professional B2B Logistics Solutions">
+  <meta name="twitter:description" content="LogisticsPro delivers professional B2B logistics solutions with 99.9% on-time delivery. Trusted by businesses for reliable shipping, warehousing, and supply chain management.">
+  <meta name="twitter:image" content="https://logisticspro.com/twitter-image.jpg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'navy': '#1e3a8a',
+            'navy-dark': '#1e40af',
+            'grey-light': '#f8fafc',
+            'grey-medium': '#64748b',
+            'grey-dark': '#334155'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-grey-dark">
+  <header class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center">
+          <div class="flex-shrink-0">
+            <span class="text-2xl font-bold text-navy">LogisticsPro</span>
+          </div>
+        </div>
+        <nav class="hidden md:block">
+          <div class="ml-10 flex items-baseline space-x-8">
+            <a href="#services" class="text-grey-dark hover:text-navy px-3 py-2 text-sm font-medium transition-colors smooth-scroll">Services</a>
+            <a href="#solutions" class="text-grey-dark hover:text-navy px-3 py-2 text-sm font-medium transition-colors smooth-scroll">Solutions</a>
+            <a href="#pricing" class="text-grey-dark hover:text-navy px-3 py-2 text-sm font-medium transition-colors smooth-scroll">Pricing</a>
+            <a href="#resources" class="text-grey-dark hover:text-navy px-3 py-2 text-sm font-medium transition-colors smooth-scroll">Resources</a>
+            <a href="#contact" class="text-grey-dark hover:text-navy px-3 py-2 text-sm font-medium transition-colors smooth-scroll">Contact</a>
+          </div>
+        </nav>
+        <div class="flex items-center space-x-4">
+          <button onclick="openBookingModal()" class="bg-navy hover:bg-navy-dark text-white px-6 py-2 rounded-md text-sm font-medium transition-colors">
+            Book Strategy Call
+          </button>
+          <button onclick="toggleMobileMenu()" class="md:hidden p-2 rounded-md text-grey-dark hover:text-navy">
+            <i data-lucide="menu" class="h-6 w-6"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+      <div class="px-2 pt-2 pb-3 space-y-1">
+        <a href="#services" class="block px-3 py-2 text-base font-medium text-grey-dark hover:text-navy smooth-scroll" onclick="toggleMobileMenu()">Services</a>
+        <a href="#solutions" class="block px-3 py-2 text-base font-medium text-grey-dark hover:text-navy smooth-scroll" onclick="toggleMobileMenu()">Solutions</a>
+        <a href="#pricing" class="block px-3 py-2 text-base font-medium text-grey-dark hover:text-navy smooth-scroll" onclick="toggleMobileMenu()">Pricing</a>
+        <a href="#resources" class="block px-3 py-2 text-base font-medium text-grey-dark hover:text-navy smooth-scroll" onclick="toggleMobileMenu()">Resources</a>
+        <a href="#contact" class="block px-3 py-2 text-base font-medium text-grey-dark hover:text-navy smooth-scroll" onclick="toggleMobileMenu()">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="bg-grey-light">
+      <section class="bg-gradient-to-br from-slate-900 to-slate-800 text-white py-20 lg:py-32"><div class="container mx-auto px-4 lg:px-8"><div class="grid lg:grid-cols-2 gap-12 items-center"><div class="space-y-8"><h1 class="text-4xl lg:text-6xl font-bold leading-tight">Reliable B2B Logistics That Delivers Results</h1><p class="text-xl lg:text-2xl text-slate-300 leading-relaxed">Trust LogisticsPro for enterprise-grade shipping solutions. We guarantee on-time delivery with complete transparency and dedicated account management.</p><div class="flex flex-col sm:flex-row gap-4"><button onclick="openBookingModal()" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200">Book Strategy Call</button><button onclick="openCaseStudiesModal()" class="border-2 border-slate-400 hover:border-white text-slate-300 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200">View Case Studies</button></div></div><div class="relative"><img data-ai="generate" data-slot="hero-main" data-prompt="Professional logistics warehouse with modern trucks and organized shipping containers, corporate business environment" data-ar="4:3" src="https://cdn.ailandingpage.ai/landingpage_io/user-generate/f844b559-1e7a-4b8e-b60b-530b6d4615ad/f844b559-1e7a-4b8e-b60b-530b6d4615ad/hero/hero-main-d18bba690108454498b9433a63596086.png" alt="LogisticsPro warehouse operations" width="800" height="600" class="w-full rounded-2xl object-cover shadow-2xl" loading="lazy" decoding="async" fetchpriority="auto" /></div></div></div></section>
+    </section>
+    
+    <section id="services" class="py-16">
+      <section class="bg-slate-50 py-16 lg:py-24"><div class="container mx-auto px-4 lg:px-8"><div class="text-center mb-12"><h2 class="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">Proven Performance Metrics</h2><p class="text-xl text-slate-600">Numbers that demonstrate our commitment to excellence</p></div><div class="grid grid-cols-2 lg:grid-cols-4 gap-8"><div class="text-center p-6 bg-white rounded-xl shadow-sm border border-slate-200"><div class="text-4xl lg:text-5xl font-bold text-blue-600 mb-2" data-counter="5000000">5M+</div><div class="text-slate-600 font-medium">Packages Delivered</div></div><div class="text-center p-6 bg-white rounded-xl shadow-sm border border-slate-200"><div class="text-4xl lg:text-5xl font-bold text-blue-600 mb-2" data-counter="99.9">99.9%</div><div class="text-slate-600 font-medium">On-Time Delivery</div></div><div class="text-center p-6 bg-white rounded-xl shadow-sm border border-slate-200"><div class="text-4xl lg:text-5xl font-bold text-blue-600 mb-2" data-counter="2500">2,500+</div><div class="text-slate-600 font-medium">Business Partners</div></div><div class="text-center p-6 bg-white rounded-xl shadow-sm border border-slate-200"><div class="text-4xl lg:text-5xl font-bold text-blue-600 mb-2" data-counter="24">24/7</div><div class="text-slate-600 font-medium">Customer Support</div></div></div></div></section>
+    </section>
+    
+    <section id="solutions" class="bg-grey-light py-16">
+      <section class="bg-white py-16 lg:py-24"><div class="container mx-auto px-4 lg:px-8"><div class="text-center mb-16"><h2 class="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">Complete Logistics Solutions</h2><p class="text-xl text-slate-600">Comprehensive services designed for modern businesses</p></div><div class="grid lg:grid-cols-3 gap-8"><div class="bg-slate-50 rounded-2xl p-8 border border-slate-200"><div class="mb-6"><img data-ai="generate" data-slot="features-1" data-prompt="Modern warehouse with automated sorting systems and conveyor belts, high-tech logistics facility" data-ar="16:9" src="https://cdn.ailandingpage.ai/landingpage_io/user-generate/f844b559-1e7a-4b8e-b60b-530b6d4615ad/f844b559-1e7a-4b8e-b60b-530b6d4615ad/features/features-1-220025b52c824951976338bbc1b8a6f8.png" alt="Automated warehouse operations" width="400" height="225" class="w-full rounded-xl object-cover" loading="lazy" decoding="async" fetchpriority="auto" /></div><h3 class="text-2xl font-bold text-slate-900 mb-4">Automated Warehousing</h3><p class="text-slate-600 mb-6">State-of-the-art facilities with automated sorting, real-time inventory tracking, and climate-controlled storage for sensitive goods.</p><ul class="space-y-2 text-slate-600"><li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Real-time inventory management</li><li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Climate-controlled storage</li><li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Automated sorting systems</li></ul></div><div class="bg-slate-50 rounded-2xl p-8 border border-slate-200"><div class="mb-6"><img data-ai="generate" data-slot="features-2" data-prompt="Fleet of modern delivery trucks with GPS tracking technology, professional logistics vehicles" data-ar="16:9" src="https://cdn.ailandingpage.ai/landingpage_io/user-generate/f844b559-1e7a-4b8e-b60b-530b6d4615ad/f844b559-1e7a-4b8e-b60b-530b6d4615ad/features/features-2-97e8197046c845df88382051c59c5698.png" alt="Modern delivery fleet" width="400" height="225" class="w-full rounded-xl object-cover" loading="lazy" decoding="async" fetchpriority="auto" /></div><h3 class="text-2xl font-bold text-slate-900 mb-4">Smart Fleet Management</h3><p class="text-slate-600 mb-6">GPS-tracked vehicles with route optimization, real-time delivery updates, and dedicated account managers for enterprise clients.</p><ul class="space-y-2 text-slate-600"><li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>GPS tracking & route optimization</li><li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Real-time delivery updates</li><li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Dedicated account managers</li></ul></div><div class="bg-slate-50 rounded-2xl p-8 border border-slate-200"><div class="mb-6"><img data-ai="generate" data-slot="features-3" data-prompt="Professional customer service center with multiple screens showing logistics data and analytics dashboards" data-ar="16:9" src="https://cdn.ailandingpage.ai/landingpage_io/user-generate/f844b559-1e7a-4b8e-b60b-530b6d4615ad/f844b559-1e7a-4b8e-b60b-530b6d4615ad/features/features-3-5e4a665c579f4658bebadd9e7e518040.png" alt="Customer service center" width="400" height="225" class="w-full rounded-xl object-cover" loading="lazy" decoding="async" fetchpriority="auto" /></div><h3 class="text-2xl font-bold text-slate-900 mb-4">Enterprise Support</h3><p class="text-slate-600 mb-6">24/7 customer support with dedicated enterprise portal, detailed analytics, and custom integration capabilities for your business systems.</p><ul class="space-y-2 text-slate-600"><li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>24/7 dedicated support</li><li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Enterprise portal & analytics</li><li class="flex items-center"><svg class="w-5 h-5 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Custom system integrations</li></ul></div></div><div class="text-center mt-12"><button onclick="openBookingModal()" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200">Book Strategy Call</button></div></div></section>
+    </section>
+    
+    <section id="pricing" class="py-16">
+      <section class="py-16 bg-gray-50"><div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center mb-12"><h2 class="text-3xl font-bold text-gray-900 mb-4">Why Choose LogisticsPro?</h2><p class="text-xl text-gray-600 max-w-3xl mx-auto">See how our professional logistics solutions outperform traditional courier services across every critical business metric.</p></div><div class="bg-white rounded-2xl shadow-lg overflow-hidden"><div class="overflow-x-auto"><table class="w-full"><thead><tr class="bg-slate-800"><th class="px-6 py-4 text-left text-sm font-semibold text-white">Service Features</th><th class="px-6 py-4 text-center text-sm font-semibold text-white">LogisticsPro</th><th class="px-6 py-4 text-center text-sm font-semibold text-white">Traditional Couriers</th></tr></thead><tbody class="divide-y divide-gray-200"><tr><td class="px-6 py-4 text-sm font-medium text-gray-900">Real-time tracking & visibility</td><td class="px-6 py-4 text-center"><svg class="w-6 h-6 text-green-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></td><td class="px-6 py-4 text-center"><svg class="w-6 h-6 text-red-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></td></tr><tr class="bg-gray-50"><td class="px-6 py-4 text-sm font-medium text-gray-900">Dedicated account manager</td><td class="px-6 py-4 text-center"><svg class="w-6 h-6 text-green-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></td><td class="px-6 py-4 text-center"><svg class="w-6 h-6 text-red-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></td></tr><tr><td class="px-6 py-4 text-sm font-medium text-gray-900">99.9% on-time delivery guarantee</td><td class="px-6 py-4 text-center"><svg class="w-6 h-6 text-green-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></td><td class="px-6 py-4 text-center"><svg class="w-6 h-6 text-red-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></td></tr><tr class="bg-gray-50"><td class="px-6 py-4 text-sm font-medium text-gray-900">Custom integration & API access</td><td class="px-6 py-4 text-center"><svg class="w-6 h-6 text-green-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></td><td class="px-6 py-4 text-center"><svg class="w-6 h-6 text-red-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></td></tr><tr><td class="px-6 py-4 text-sm font-medium text-gray-900">24/7 customer support</td><td class="px-6 py-4 text-center"><svg class="w-6 h-6 text-green-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></td><td class="px-6 py-4 text-center"><svg class="w-6 h-6 text-red-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></td></tr><tr class="bg-gray-50"><td class="px-6 py-4 text-sm font-medium text-gray-900">Scalable enterprise solutions</td><td class="px-6 py-4 text-center"><svg class="w-6 h-6 text-green-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></td><td class="px-6 py-4 text-center"><svg class="w-6 h-6 text-red-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></td></tr><tr><td class="px-6 py-4 text-sm font-medium text-gray-900">Comprehensive insurance coverage</td><td class="px-6 py-4 text-center"><svg class="w-6 h-6 text-green-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></td><td class="px-6 py-4 text-center"><svg class="w-6 h-6 text-red-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></td></tr></tbody></table></div></div><div class="text-center mt-8"><button onclick="openBookingModal()" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">Book Strategy Call</button></div></div></section>
+    </section>
+    
+    <section id="resources" class="bg-grey-light py-16">
+      <section class="py-16 bg-white"><div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center mb-12"><h2 class="text-3xl font-bold text-gray-900 mb-4">Trusted by Industry Leaders</h2><p class="text-xl text-gray-600 max-w-3xl mx-auto">See how LogisticsPro has transformed logistics operations for businesses across industries.</p></div><div class="grid md:grid-cols-2 gap-8"><div class="bg-gray-50 rounded-2xl p-8"><div class="flex items-start space-x-4"><img data-ai="generate" data-slot="testimonials-1" data-prompt="Professional headshot of a confident middle-aged business executive in a navy suit, corporate office background" data-ar="1:1" src="https://cdn.ailandingpage.ai/landingpage_io/user-generate/f844b559-1e7a-4b8e-b60b-530b6d4615ad/f844b559-1e7a-4b8e-b60b-530b6d4615ad/testimonials/testimonials-1-877d95b8807f4edeb6a4ee0121208c58.png" alt="Sarah Chen, CEO" width="80" height="80" class="w-20 h-20 rounded-full object-cover" loading="lazy" decoding="async" fetchpriority="auto"/><div class="flex-1"><div class="flex mb-2"><svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div><blockquote class="text-gray-700 mb-4">"LogisticsPro transformed our supply chain efficiency. Their real-time tracking and dedicated support reduced our delivery issues by 95%. The ROI was immediate and substantial."</blockquote><div class="text-sm"><div class="font-semibold text-gray-900">Sarah Chen</div><div class="text-gray-600">CEO, TechFlow Solutions</div></div></div></div></div><div class="bg-gray-50 rounded-2xl p-8"><div class="flex items-start space-x-4"><img data-ai="generate" data-slot="testimonials-2" data-prompt="Professional headshot of a confident business leader in formal attire, modern office environment, trustworthy appearance" data-ar="1:1" src="https://cdn.ailandingpage.ai/landingpage_io/user-generate/f844b559-1e7a-4b8e-b60b-530b6d4615ad/f844b559-1e7a-4b8e-b60b-530b6d4615ad/testimonials/testimonials-2-e4d341553a8c4b8a88d8b32003ea0a1e.png" alt="Michael Rodriguez, Operations Director" width="80" height="80" class="w-20 h-20 rounded-full object-cover" loading="lazy" decoding="async" fetchpriority="auto"/><div class="flex-1"><div class="flex mb-2"><svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div><blockquote class="text-gray-700 mb-4">"Switching to LogisticsPro was the best operational decision we made this year. Their enterprise-grade solutions and proactive account management saved us 40% on logistics costs while improving reliability."</blockquote><div class="text-sm"><div class="font-semibold text-gray-900">Michael Rodriguez</div><div class="text-gray-600">Operations Director, Global Manufacturing Inc.</div></div></div></div></div></div><div class="text-center mt-12"><button onclick="openBookingModal()" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">Book Strategy Call</button></div></div></section>
+    </section>
+    
+    <section class="py-16">
+      <section class="py-16 bg-gray-50"><div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center mb-12"><h2 class="text-3xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2><p class="text-xl text-gray-600">Get answers to common questions about our enterprise logistics solutions.</p></div><div class="space-y-6"><div class="bg-white rounded-lg shadow-sm"><details class="group"><summary class="flex justify-between items-center p-6 cursor-pointer list-none"><h3 class="text-lg font-semibold text-gray-900">What makes LogisticsPro different from traditional courier services?</h3><svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary><div class="px-6 pb-6"><p class="text-gray-600">LogisticsPro offers enterprise-grade solutions with dedicated account management, real-time tracking, API integrations, and guaranteed 99.9% on-time delivery. Unlike traditional couriers, we provide scalable solutions tailored to your business needs with comprehensive support and transparent pricing.</p></div></details></div><div class="bg-white rounded-lg shadow-sm"><details class="group"><summary class="flex justify-between items-center p-6 cursor-pointer list-none"><h3 class="text-lg font-semibold text-gray-900">How quickly can we integrate LogisticsPro with our existing systems?</h3><svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary><div class="px-6 pb-6"><p class="text-gray-600">Our technical team can complete most integrations within 48-72 hours. We provide comprehensive API documentation, dedicated technical support, and pre-built connectors for popular e-commerce and ERP platforms. Your dedicated account manager will coordinate the entire setup process.</p></div></details></div><div class="bg-white rounded-lg shadow-sm"><details class="group"><summary class="flex justify-between items-center p-6 cursor-pointer list-none"><h3 class="text-lg font-semibold text-gray-900">What are your pricing models for enterprise clients?</h3><svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary><div class="px-6 pb-6"><p class="text-gray-600">We offer flexible pricing based on volume, service level, and geographic coverage. Our enterprise packages include volume discounts, predictable monthly billing, and no hidden fees. Contact us for a customized quote based on your specific logistics requirements and shipping volumes.</p></div></details></div><div class="bg-white rounded-lg shadow-sm"><details class="group"><summary class="flex justify-between items-center p-6 cursor-pointer list-none"><h3 class="text-lg font-semibold text-gray-900">Do you provide international shipping capabilities?</h3><svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary><div class="px-6 pb-6"><p class="text-gray-600">Yes, LogisticsPro offers comprehensive international shipping to over 200 countries with customs clearance support, duty management, and compliance assistance. Our global network ensures reliable delivery times and full tracking visibility for all international shipments.</p></div></details></div><div class="bg-white rounded-lg shadow-sm"><details class="group"><summary class="flex justify-between items-center p-6 cursor-pointer list-none"><h3 class="text-lg font-semibold text-gray-900">What level of customer support do you provide?</h3><svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary><div class="px-6 pb-6"><p class="text-gray-600">All enterprise clients receive 24/7 customer support, a dedicated account manager, and priority technical assistance. Our support team includes logistics specialists who understand your business needs and can provide proactive solutions and real-time issue resolution.</p></div></details></div><div class="bg-white rounded-lg shadow-sm"><details class="group"><summary class="flex justify-between items-center p-6 cursor-pointer list-none"><h3 class="text-lg font-semibold text-gray-900">How do you ensure package security and insurance coverage?</h3><svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary><div class="px-6 pb-6"><p class="text-gray-600">LogisticsPro provides comprehensive insurance coverage up to $100,000 per package, secure handling protocols, and chain-of-custody tracking. All shipments are monitored with GPS tracking, secure facilities, and background-checked personnel throughout the delivery process.</p></div></details></div></div><div class="text-center mt-12"><p class="text-gray-600 mb-6">Still have questions? Our logistics experts are ready to help.</p><button onclick="openBookingModal()" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">Book Strategy Call</button></div></div></section>
+    </section>
+    
+    <section id="contact" class="bg-navy py-16">
+      <section class="bg-slate-900 py-20">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+      Ready to Transform Your Logistics?
+    </h2>
+    <p class="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
+      Join thousands of businesses who trust LogisticsPro for reliable, on-time delivery solutions. Schedule your strategy call today.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <button onclick="openBookingModal()" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transition-colors duration-200 text-lg shadow-lg">
+        Book Strategy Call
+      </button>
+      <p class="text-slate-400 text-sm">
+        Free 30-minute consultation • No commitment required
+      </p>
+    </div>
+    <div class="mt-12 pt-8 border-t border-slate-700">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div>
+          <div class="text-2xl font-bold text-white mb-2">24/7</div>
+          <div class="text-slate-300">Customer Support</div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-white mb-2">99.9%</div>
+          <div class="text-slate-300">Uptime Guarantee</div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-white mb-2">5M+</div>
+          <div class="text-slate-300">Packages Delivered</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </section>
+  </main>
+
+  <footer class="bg-grey-dark text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="col-span-1">
+          <div class="flex items-center mb-4">
+            <span class="text-2xl font-bold text-white">LogisticsPro</span>
+          </div>
+          <p class="text-gray-300 text-sm mb-4">
+            Professional B2B logistics solutions with reliable delivery and supply chain management.
+          </p>
+          <div class="flex space-x-4">
+            <a href="https://linkedin.com/company/logisticspro" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors">
+              <i data-lucide="linkedin" class="h-5 w-5"></i>
+            </a>
+            <a href="https://twitter.com/logisticspro" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors">
+              <i data-lucide="twitter" class="h-5 w-5"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h3 class="text-white font-semibold mb-4">Services</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#services" class="text-gray-300 hover:text-white transition-colors smooth-scroll">Freight Shipping</a></li>
+            <li><a href="#services" class="text-gray-300 hover:text-white transition-colors smooth-scroll">Warehousing</a></li>
+            <li><a href="#services" class="text-gray-300 hover:text-white transition-colors smooth-scroll">Supply Chain</a></li>
+            <li><a href="#services" class="text-gray-300 hover:text-white transition-colors smooth-scroll">Last Mile Delivery</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-white font-semibold mb-4">Company</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" onclick="showComingSoon('About Us')" class="text-gray-300 hover:text-white transition-colors">About Us</a></li>
+            <li><a href="#" onclick="showComingSoon('Careers')" class="text-gray-300 hover:text-white transition-colors">Careers</a></li>
+            <li><a href="#" onclick="showComingSoon('News')" class="text-gray-300 hover:text-white transition-colors">News</a></li>
+            <li><a href="#" onclick="showComingSoon('Partners')" class="text-gray-300 hover:text-white transition-colors">Partners</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-white font-semibold mb-4">Support</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" onclick="showComingSoon('Help Center')" class="text-gray-300 hover:text-white transition-colors">Help Center</a></li>
+            <li><a href="#contact" class="text-gray-300 hover:text-white transition-colors smooth-scroll">Contact Support</a></li>
+            <li><a href="#" onclick="showComingSoon('Privacy Policy')" class="text-gray-300 hover:text-white transition-colors">Privacy Policy</a></li>
+            <li><a href="#" onclick="showComingSoon('Terms of Service')" class="text-gray-300 hover:text-white transition-colors">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="border-t border-gray-600 mt-8 pt-8">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <p class="text-gray-300 text-sm">
+            © 2024 LogisticsPro. All rights reserved.
+          </p>
+          <div class="flex space-x-6 mt-4 md:mt-0">
+            <a href="mailto:contact@logisticspro.com" class="text-gray-300 hover:text-white text-sm transition-colors">
+              contact@logisticspro.com
+            </a>
+            <a href="tel:1-800-564-4784" class="text-gray-300 hover:text-white text-sm transition-colors">
+              1-800-LOGISTICS
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Booking Modal -->
+  <div id="booking-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-md w-full p-8 relative">
+      <button onclick="closeBookingModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600">
+        <i data-lucide="x" class="h-6 w-6"></i>
+      </button>
+      <h3 class="text-2xl font-bold text-gray-900 mb-6">Book Your Strategy Call</h3>
+      <form id="booking-form" onsubmit="submitBookingForm(event)">
+        <div class="space-y-4">
+          <div>
+            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+            <input type="text" id="name" name="name" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+            <input type="email" id="email" name="email" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </div>
+          <div>
+            <label for="company" class="block text-sm font-medium text-gray-700 mb-1">Company Name</label>
+            <input type="text" id="company" name="company" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </div>
+          <div>
+            <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </div>
+          <div>
+            <label for="volume" class="block text-sm font-medium text-gray-700 mb-1">Monthly Shipping Volume</label>
+            <select id="volume" name="volume" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <option value="">Select volume range</option>
+              <option value="1-100">1-100 packages</option>
+              <option value="101-500">101-500 packages</option>
+              <option value="501-1000">501-1,000 packages</option>
+              <option value="1000+">1,000+ packages</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 mt-6">
+          Schedule Call
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Case Studies Modal -->
+  <div id="case-studies-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto p-8 relative">
+      <button onclick="closeCaseStudiesModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600">
+        <i data-lucide="x" class="h-6 w-6"></i>
+      </button>
+      <h3 class="text-3xl font-bold text-gray-900 mb-8">Success Stories</h3>
+      <div class="space-y-8">
+        <div class="border-l-4 border-blue-600 pl-6">
+          <h4 class="text-xl font-bold text-gray-900 mb-2">TechFlow Solutions</h4>
+          <p class="text-gray-600 mb-4">Reduced delivery issues by 95% and achieved immediate ROI through our real-time tracking and dedicated support system.</p>
+          <div class="grid grid-cols-3 gap-4 text-center">
+            <div><span class="text-2xl font-bold text-blue-600">95%</span><br><span class="text-sm text-gray-600">Fewer Issues</span></div>
+            <div><span class="text-2xl font-bold text-blue-600">30%</span><br><span class="text-sm text-gray-600">Cost Savings</span></div>
+            <div><span class="text-2xl font-bold text-blue-600">99.8%</span><br><span class="text-sm text-gray-600">On-Time Rate</span></div>
+          </div>
+        </div>
+        <div class="border-l-4 border-green-600 pl-6">
+          <h4 class="text-xl font-bold text-gray-900 mb-2">Global Manufacturing Inc.</h4>
+          <p class="text-gray-600 mb-4">Saved 40% on logistics costs while improving reliability through our enterprise-grade solutions and proactive account management.</p>
+          <div class="grid grid-cols-3 gap-4 text-center">
+            <div><span class="text-2xl font-bold text-green-600">40%</span><br><span class="text-sm text-gray-600">Cost Reduction</span></div>
+            <div><span class="text-2xl font-bold text-green-600">50%</span><br><span class="text-sm text-gray-600">Faster Processing</span></div>
+            <div><span class="text-2xl font-bold text-green-600">24/7</span><br><span class="text-sm text-gray-600">Support Access</span></div>
+          </div>
+        </div>
+        <div class="border-l-4 border-purple-600 pl-6">
+          <h4 class="text-xl font-bold text-gray-900 mb-2">E-Commerce Leader</h4>
+          <p class="text-gray-600 mb-4">Scaled operations seamlessly during peak season with our automated warehousing and smart fleet management solutions.</p>
+          <div class="grid grid-cols-3 gap-4 text-center">
+            <div><span class="text-2xl font-bold text-purple-600">300%</span><br><span class="text-sm text-gray-600">Volume Increase</span></div>
+            <div><span class="text-2xl font-bold text-purple-600">99.9%</span><br><span class="text-sm text-gray-600">Uptime</span></div>
+            <div><span class="text-2xl font-bold text-purple-600">48hrs</span><br><span class="text-sm text-gray-600">Integration Time</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <button onclick="closeCaseStudiesModal(); openBookingModal();" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
+          Book Your Strategy Call
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Success Message -->
+  <div id="success-message" class="fixed top-4 right-4 bg-green-600 text-white px-6 py-4 rounded-lg shadow-lg z-50 hidden">
+    <div class="flex items-center">
+      <i data-lucide="check-circle" class="h-5 w-5 mr-2"></i>
+      <span>Thank you! We'll contact you within 24 hours.</span>
+    </div>
+  </div>
+
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('.smooth-scroll').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          targetElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Mobile menu toggle
+    function toggleMobileMenu() {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    }
+
+    // Booking modal functions
+    function openBookingModal() {
+      document.getElementById('booking-modal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeBookingModal() {
+      document.getElementById('booking-modal').classList.add('hidden');
+      document.body.style.overflow = 'auto';
+    }
+
+    // Case studies modal functions
+    function openCaseStudiesModal() {
+      document.getElementById('case-studies-modal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeCaseStudiesModal() {
+      document.getElementById('case-studies-modal').classList.add('hidden');
+      document.body.style.overflow = 'auto';
+    }
+
+    // Form submission
+    function submitBookingForm(event) {
+      event.preventDefault();
+      
+      // Simulate form submission
+      const formData = new FormData(event.target);
+      const data = Object.fromEntries(formData);
+      
+      // In a real application, you would send this data to your server
+      console.log('Form submitted:', data);
+      
+      // Close modal and show success message
+      closeBookingModal();
+      showSuccessMessage();
+      
+      // Reset form
+      event.target.reset();
+    }
+
+    function showSuccessMessage() {
+      const successMessage = document.getElementById('success-message');
+      successMessage.classList.remove('hidden');
+      
+      setTimeout(() => {
+        successMessage.classList.add('hidden');
+      }, 5000);
+    }
+
+    function showComingSoon(feature) {
+      alert(`${feature} page is coming soon! For immediate assistance, please book a strategy call.`);
+    }
+
+    // Counter animation for metrics
+    function animateCounters() {
+      const counters = document.querySelectorAll('[data-counter]');
+      
+      counters.forEach(counter => {
+        const target = counter.getAttribute('data-counter');
+        const isVisible = counter.getBoundingClientRect().top < window.innerHeight;
+        
+        if (isVisible && !counter.classList.contains('animated')) {
+          counter.classList.add('animated');
+          
+          let current = 0;
+          const increment = target / 100;
+          const timer = setInterval(() => {
+            current += increment;
+            if (current >= target) {
+              counter.textContent = target.includes('.') ? target : target.includes('M') ? '5M+' : target.includes('+') ? target : target + (target === '24' ? '/7' : target === '99.9' ? '%' : '+');
+              clearInterval(timer);
+            } else {
+              counter.textContent = Math.floor(current);
+            }
+          }, 20);
+        }
+      });
+    }
+
+    // Trigger counter animation on scroll
+    window.addEventListener('scroll', animateCounters);
+    
+    // Close modals when clicking outside
+    document.addEventListener('click', function(event) {
+      const bookingModal = document.getElementById('booking-modal');
+      const caseStudiesModal = document.getElementById('case-studies-modal');
+      
+      if (event.target === bookingModal) {
+        closeBookingModal();
+      }
+      
+      if (event.target === caseStudiesModal) {
+        closeCaseStudiesModal();
+      }
+    });
+
+    // Close modals with Escape key
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        closeBookingModal();
+        closeCaseStudiesModal();
+      }
+    });
+
+    // Initialize counters on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(animateCounters, 500);
+    });
+  </script>
+</body>
+</html>
